@@ -45,7 +45,7 @@ Development of a territorial scoring model based on:
 ---
 
 ## 📸 Outputs
-(Add screenshots here: maps, charts, dashboard)
+
 
 ---
 
@@ -58,4 +58,4 @@ This type of model can help:
 ---
 
 ## 📬 Contact
-[Your LinkedIn]
+https://www.linkedin.com/in/djimtebaye-naguertangar-4bb913120/
