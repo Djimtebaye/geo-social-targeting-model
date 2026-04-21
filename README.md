@@ -43,14 +43,14 @@ A composite **service accessibility index** is built and inverted to estimate te
 ## 🗺️ Key Outputs
 
 ### Vulnerability Map
-![Vulnerability Map](outputs/maps/vulnerability_map.png)
+![Vulnerability Map](images/Vulnerability_map.png)
 
 Areas with limited access to services exhibit higher vulnerability levels, highlighting priority zones for intervention.
 
 ---
 
 ### Territorial Clusters
-![Clusters Map](outputs/maps/clusters_map.png)
+![Clusters Map](images/Vulnerability_clusters.png)
 
 The clustering analysis identifies distinct territorial profiles based on service accessibility patterns.
 
