@@ -47,10 +47,10 @@ Development of a territorial scoring model based on:
 ## 📊 Key Outputs
 
 ### Vulnerability Map
-![Vulnerability Map](D:\Bureau\SIG_DATA\vulnerability_map.png)
+![Vulnerability Map](images/vulnerability_map.png)
 
 ### Territorial Clusters
-![Clusters Map](D:\Bureau\SIG_DATA\Vulnerability_clusters.png)
+![Clusters Map](images/Vulnerability_clusters.png)
 
 ### Top Priority Areas
 ![Top Zones](outputs/charts/top10_table.png)
