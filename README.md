@@ -1,70 +1,93 @@
-# 🧭 Geospatial Targeting Model for Social Aid Programs
+# 🧭 Geospatial Analysis for Targeting Social & Health Services
 
 ## 📌 Overview
-This project demonstrates how geospatial data and socio-economic indicators can be combined to optimize the targeting of social aid programs.
 
-The objective is to help decision-makers identify high-priority areas based on data-driven insights.
+Public and social programs often face a critical challenge:  
+**limited resources combined with unequal access to essential services across territories.**
 
----
-
-## 🎯 Problem
-Social aid programs often suffer from inefficient targeting due to lack of data integration and spatial analysis.
+This project demonstrates how geospatial data can be used to identify underserved areas and support more effective, data-driven decision-making.
 
 ---
 
-## 💡 Solution
-Development of a territorial scoring model based on:
-- poverty indicators
-- access to services
-- population density
-- geographic accessibility
+## 🎯 Objective
+
+To identify territories with limited access to health and social services in order to improve the targeting and impact of public interventions.
 
 ---
 
-## ⚙️ Methodology
-1. Data collection (open data / simulated)
-2. Data cleaning and processing
-3. Creation of a vulnerability index
-4. Geospatial analysis
-5. Visualization of priority areas
+## 💡 Approach
+
+The model is based on indicators related to service accessibility, including:
+
+- healthcare facilities  
+- medical and paramedical services  
+- social services for elderly populations  
+- social services for people with disabilities  
+
+A composite **service accessibility index** is built and inverted to estimate territorial vulnerability.
 
 ---
 
-## 📊 Results
-- Identification of high-priority zones
-- Improved targeting strategy
-- Decision-support insights
+## 📊 Key Insights
+
+- Significant disparities exist in access to essential services across territories  
+- Several areas show **low service density**, indicating high vulnerability  
+- Clustering reveals **4 distinct territorial profiles**:
+  - well-served areas  
+  - intermediate territories  
+  - underserved areas  
+  - structurally imbalanced zones  
+
+---
+
+## 🗺️ Key Outputs
+
+### Vulnerability Map
+![Vulnerability Map](outputs/maps/vulnerability_map.png)
+
+Areas with limited access to services exhibit higher vulnerability levels, highlighting priority zones for intervention.
+
+---
+
+### Territorial Clusters
+![Clusters Map](outputs/maps/clusters_map.png)
+
+The clustering analysis identifies distinct territorial profiles based on service accessibility patterns.
+
+---
+
+### Top Priority Areas
+![Top Zones](outputs/charts/top10_table.png)
+
+These areas represent the most underserved territories and should be prioritized in resource allocation strategies.
+
+---
+
+## 💥 Business Value
+
+This approach enables organizations to:
+
+- better target high-impact intervention areas  
+- optimize allocation of limited resources  
+- support data-driven policy and program decisions  
+
+---
+
+## ⚠️ Limitations
+
+The analysis focuses on the presence of services but does not account for service quality or capacity.  
+Additional data could further refine the model.
 
 ---
 
 ## 🛠️ Tools
-- Python (pandas, geopandas)
-- QGIS / ArcGIS
-- Power BI / Streamlit
 
----
-
-## 📊 Key Outputs
-
-### Vulnerability Map
-![Vulnerability Map](images/vulnerability_map.png)
-
-### Territorial Clusters
-![Clusters Map](images/Vulnerability_cluster.png)
-
-### Top Priority Areas
-![Top Zones](images/top10_table.png)
-
-
----
-
-## 🚀 Business Value
-This type of model can help:
-- NGOs optimize resource allocation
-- Governments improve policy impact
-- Consultants deliver better insights
+Python (GeoPandas, Pandas, Scikit-learn), Matplotlib
 
 ---
 
 ## 📬 Contact
-https://www.linkedin.com/in/djimtebaye-naguertangar-4bb913120/
+
+If you are working on territorial planning, social programs, or public policy, feel free to connect:
+
+🔗 https://www.linkedin.com/in/djimtebaye-naguertangar-4bb913120/
