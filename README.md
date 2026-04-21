@@ -50,7 +50,7 @@ Development of a territorial scoring model based on:
 ![Vulnerability Map](images/vulnerability_map.png)
 
 ### Territorial Clusters
-![Clusters Map](images/Vulnerability_clusters.png)
+![Clusters Map](images/Vulnerability_cluster.png)
 
 ### Top Priority Areas
 ![Top Zones](outputs/charts/top10_table.png)
